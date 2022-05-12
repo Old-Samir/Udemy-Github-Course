@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     // Applying torque to rigid body component
 
     [SerializeField] float torqueAmount = 1f;
-    [SerializeField] float boostSpeed = 31f;
-    [SerializeField] float baseSpeed = 20f;
+    [SerializeField] float boostSpeed = 33f;
+    [SerializeField] float baseSpeed = 23f;
     Rigidbody2D rb2d;
     SurfaceEffector2D surfaceEffector2D;
     bool canMove = true;
